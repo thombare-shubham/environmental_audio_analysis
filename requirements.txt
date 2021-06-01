@@ -1,0 +1,10 @@
+keras
+tensorflow
+Sklearn
+Librosa
+noisereduce
+numpy
+datetime
+os
+matplotlib
+tkinter

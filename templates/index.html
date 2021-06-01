@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Audio Scene and Event Recognition</title>
+    <link rel="stylesheet" href="{{url_for('static',filename ='css/style.css')}}">
+</head>
+<body>
+    <div class="login">
+        <h1 font= 'sans-serif'>Environmental Audio Scene and Sound Event Recognition</h1>
+        <h3 font = "sans-serif"></h3>
+        <!-- Input for receiving Query to out ML model -->
+        <form action="{{url_for('predict')}}" method="POST" enctype="multipart/form-data" >
+            <input type="file" name="file" required="required">
+            <br>
+            <input type="submit" id="submitButton" value="Upload">
+        </form>
+        <br>
+        <br>
+        {{ prediction_text }}
+    </div>
+</body>
+</html>
