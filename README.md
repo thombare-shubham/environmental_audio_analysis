@@ -1,7 +1,7 @@
 # environmental_audio_analysis
 A machine learning model for recognizing multiple audio events.
 
-First of all create a folder named "Dataset_audio" and the five sets s1,s2,s3,s4,s5 in that folder.
+First of all create a folder named "Features".
 Then to run program just run the 'app.py' as we run regularly, after that it will run the app on localhost at address 127.0.0.1/5000:
  
  For more details I have also added presentation and report of project.
